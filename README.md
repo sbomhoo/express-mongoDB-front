@@ -1,6 +1,6 @@
 # Express - mongoDB 서버 에서 react로 데이터 가져오기
 
-### CORS 설정은 서버에서 
+### CORS 설정은 서버에서 세팅
 - res.header("Access-Control-Allow-Origin","*");
 
 -----
