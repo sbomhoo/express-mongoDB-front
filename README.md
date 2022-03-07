@@ -10,9 +10,9 @@
 - 출처: https://devbirdfeet.tistory.com/47 [새발개발자] 
 
 ```
-{text&&text.map(tt => (
-                <li key = {tt.id}>
-                    {tt.title} ({tt.author})
+{items&&items.map(item => (
+                <li key = {item.id}>
+                    {item.title} ({item.author})
                 </li> 
 ))}
 ```
